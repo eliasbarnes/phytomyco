@@ -58,11 +58,15 @@ body {
 /* HEADER STYLES */
 
 .header {
-  background-color: #0f0;
-  color: #00f;
+  background: linear-gradient(to right, lightgreen, green, red);
+  border: 2px solid red;
+  border-radius: 15px;
+  box-sizing: border-box;
 }
 .header-logo {
   background-color: #000;
+  border: 1px solid #000;
+  border-radius: 15px;
   box-sizing: border-box;
   display: block;
   height: 10vh;
